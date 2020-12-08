@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import datetime
 
-sv = StudentVue('<INSERT_STUDENT_ID>','<INSERT_STUDENT_PASS>','28AEFB35-49E5-4BA0-9257-77352DD1F4E5')
+sv = StudentVue('<INSERT_STUDENT_ID>','<INSERT_STUDENT_PASS>','<INSERT_STUDENT_GU>')
 classes = sv.get_classes()
 grades = sv.get_grades()
 missing_assignments = sv.get_missing_assignments()
